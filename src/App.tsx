@@ -1,4 +1,5 @@
 import './App.css';
+import AboutUs from './AboutUs';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
             <img src="/imagens/hero-image.png" alt="Imagem de destaque da Casa Botânica" />
           </div>
         </section>
+        <AboutUs />
       </main>
     </>
   );
