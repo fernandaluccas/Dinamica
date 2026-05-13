@@ -1,4 +1,11 @@
 import './AboutUs.css';
+import vectorVaso from './assets/Vector_vaso.svg';
+import vectorLivro from './assets/Vector_livro.svg';
+import vectorCaixa from './assets/Vector_caixa.svg';
+import gridImg1 from './assets/Grid Img-1.png';
+import gridImg2 from './assets/Grid Img-2.png';
+import gridImg3 from './assets/Grid Img-3.png';
+import gridImgMain from './assets/Grid ImgMain.png';
 
 const AboutUs = () => {
   return (
@@ -24,7 +31,7 @@ const AboutUs = () => {
               {/* Card 1 */}
               <div className="about-card">
                 <div className="card-icon-container">
-                  <img src="/Vector_vaso.svg" alt="Ícone Vaso" className="card-icon" />
+                  <img src={vectorVaso} alt="Ícone Vaso" className="card-icon" />
                 </div>
                 <p className="card-text">Curadoria de plantas para iniciantes</p>
               </div>
@@ -32,7 +39,7 @@ const AboutUs = () => {
               {/* Card 2 */}
               <div className="about-card">
                 <div className="card-icon-container">
-                  <img src="/Vector_livro.svg" alt="Ícone Livro" className="card-icon" />
+                  <img src={vectorLivro} alt="Ícone Livro" className="card-icon" />
                 </div>
                 <p className="card-text">Guia completo de manutenção</p>
               </div>
@@ -40,7 +47,7 @@ const AboutUs = () => {
               {/* Card 3 */}
               <div className="about-card about-card-caixa">
                 <div className="card-icon-container">
-                  <img src="/Vector_caixa.svg" alt="Ícone Caixa" className="card-icon" />
+                  <img src={vectorCaixa} alt="Ícone Caixa" className="card-icon" />
                 </div>
                 <p className="card-text">Kits prontos e fáceis de cuidar</p>
               </div>
@@ -52,12 +59,12 @@ const AboutUs = () => {
         <div className="about-image-grid-container">
           <div className="about-image-grid">
             <div className="grid-col grid-col-1">
-              <img src="/Grid Img-3.png" alt="Ambiente decorado 1" className="grid-img grid-img-h1" />
-              <img src="/Grid ImgMain.png" alt="Ambiente decorado 2" className="grid-img grid-img-v1" />
+              <img src={gridImg3} alt="Ambiente decorado 1" className="grid-img grid-img-h1" />
+              <img src={gridImgMain} alt="Ambiente decorado 2" className="grid-img grid-img-v1" />
             </div>
             <div className="grid-col grid-col-2">
-              <img src="/Grid Img-1.png" alt="Ambiente principal" className="grid-img grid-img-main" />
-              <img src="/Grid Img-2.png" alt="Ambiente decorado 3" className="grid-img grid-img-h2" />
+              <img src={gridImg1} alt="Ambiente principal" className="grid-img grid-img-main" />
+              <img src={gridImg2} alt="Ambiente decorado 3" className="grid-img grid-img-h2" />
             </div>
           </div>
         </div>
