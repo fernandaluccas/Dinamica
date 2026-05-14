@@ -1,11 +1,11 @@
 import './AboutUs.css';
-import vectorVaso from './assets/Vector_vaso.svg';
-import vectorLivro from './assets/Vector_livro.svg';
-import vectorCaixa from './assets/Vector_caixa.svg';
-import gridImg1 from './assets/Grid Img-1.png';
-import gridImg2 from './assets/Grid Img-2.png';
-import gridImg3 from './assets/Grid Img-3.png';
-import gridImgMain from './assets/Grid ImgMain.png';
+import vectorVaso from '../../assets/Vector_vaso.svg';
+import vectorLivro from '../../assets/Vector_livro.svg';
+import vectorCaixa from '../../assets/Vector_caixa.svg';
+import gridImg1 from '../../assets/Grid Img-1.png';
+import gridImg2 from '../../assets/Grid Img-2.png';
+import gridImg3 from '../../assets/Grid Img-3.png';
+import gridImgMain from '../../assets/Grid ImgMain.png';
 
 const AboutUs = () => {
   return (
