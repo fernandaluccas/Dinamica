@@ -1,0 +1,100 @@
+.hero { 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding: 0px 80px;
+    max-width: 1440px;
+    margin: -100px auto 0;            
+    background-image: url("/imagens/Background-Img.png");
+    background-size: cover;
+    background-position: right center;
+    min-height: 500px;  
+    position: relative;
+}
+
+.leaf-decor {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    height: auto;
+    z-index: 0;
+}
+
+.hero-conteudo {
+    flex: 1;
+    max-width: 400px;
+    margin-left: 35px;
+    margin-top: 280px;
+    align-self: flex-start;
+}
+
+.descricao {
+    font-size: 14px;
+    color: #333;
+    margin-top: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+.hero-imagem {
+    height: auto;
+    flex-shrink: 0;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-imagem img {
+    width: 700px;
+    max-width: 100%;
+    height: auto;
+    transform: translateY(-60px);
+}
+
+.btn-principal {
+    background-color: #7A507A;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Manrope', sans-serif;
+    margin-right: 10px;
+}
+
+.btn-secundario {
+    background-color: #CC9BCA;
+    color: white;
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.tagline {
+    font-size: 12px;
+    color: white;
+    margin-top: 20px;
+    border: none;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #879759;
+    padding: 5px 5px;
+    font-family: 'Manrope', sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+    font-family: 'Manrope', sans-serif;
+    font-size: 33px;
+}
+
+span {
+    color: #a2b271;
+}
