@@ -1,0 +1,107 @@
+.footer {
+  background-color: #283501; /* Pegue a cor exata no Figma (Hexadecimal) */
+  color: #D9EAA3;
+  padding: 30px 0 10px 0;
+  font-family: sans-serif;
+}
+
+.footer-logo {
+  max-width: 250px; /* Isso vai deixar o logo pequeno e delicado */
+  height: auto;     /* Mantém a proporção sem achatar */
+  margin-bottom: 5px; /* Diminui o espaço entre a imagem e o nome CASA BOTÂNICA */
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around; /* Isso espalha as colunas igualmente */
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+
+.footer-column {
+  margin-bottom: 15px;
+  min-width: 180px;
+}
+
+.footer-column h3 {
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+  color: #D9EAA3; 
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+}
+
+.footer-column a {
+  color: #D9EAA3;
+  text-decoration: none;
+}
+
+.footer-column a:hover {
+  text-decoration: underline;
+}
+
+.logo-column h2 {
+  margin-top: 10px;
+  letter-spacing: 2px;
+}
+
+.footer-copy {
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 0.8rem;
+  background-color: #161F00; /* Cor da faixinha de baixo */
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px; /* Espaço entre os ícones */
+  margin-top: 10px;
+  color: #D9EAA3;
+}
+
+.social-icon {
+  width: 30px;  /* Tamanho padrão de ícone */
+  height: 30px;
+  transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.2); /* Aumenta 20% no hover */
+  filter: brightness(1.2); /* Dá um brilhozinho */
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;           /* Tamanho do círculo */
+  height: 40px;          /* Tamanho do círculo */
+  border: 1px solid #161F00; /* A cor da borda do círculo */
+  background-color: #161F00; /* A cor do círculo (mesma do fundo para ficar invisível) */;
+  border-radius: 50%;    /* Isso aqui é o que faz ficar redondo */
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+/* Efeito quando passa o mouse no círculo */
+.social-link:hover {
+  background-color: #D9EAA3; /* O círculo fica branco */
+  border-color: #D9EAA3;
+}
+
+.social-link:hover .social-icon {
+  filter: brightness(0) invert(1); /* O ícone fica preto quando o círculo fica branco */
+}
