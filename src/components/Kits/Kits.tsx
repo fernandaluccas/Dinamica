@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './Kits.css';
 
 import kit1 from '../../assets/Hover Kit 1.png';
